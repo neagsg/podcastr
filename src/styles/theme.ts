@@ -15,4 +15,14 @@ export default {
     purple500: '#8257E5',
     purple800: '#6F48C9',
   },
+
+  font: {
+    sizes: {
+      xsmall: '0.875rem',
+      small: '1rem',
+      medium: '1.25rem',
+      large: '1.5rem',
+      xlarge: '2rem',
+    },
+  },
 };
