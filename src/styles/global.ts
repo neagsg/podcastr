@@ -7,6 +7,12 @@ const GlobalStyles = createGlobalStyle`
     box-sizing: border-box;
   }
 
+  @media (min-width: 1080px) {
+    html {
+      font-size: 75%;
+    }
+}
+
   ${({ theme }) => css`
     body {
       background: ${theme.colors.gray50};

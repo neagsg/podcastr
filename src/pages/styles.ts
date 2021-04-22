@@ -14,6 +14,7 @@ export const LatestEpisodes = styled.section`
   ul {
     list-style: none;
     display: grid;
+    grid-template-columns: 1fr 1fr;
     gap: 1.5rem;
 
     ${({ theme }) => css`
@@ -48,11 +49,11 @@ export const LatestEpisodes = styled.section`
     `}
   }
 
-  @media (man-width: 1400px) {
+  /* @media (man-width: 1400px) {
     ul {
       grid-template-columns: 1fr 1fr;
     }
-  }
+  } */
 `;
 export const AllEpisodes = styled.section``;
 export const EpisodeDetails = styled.div`
